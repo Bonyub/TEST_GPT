@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BY's resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-size: 14px;
+      background: white url('./bg.jpg') no-repeat fixed;
+      background-size: cover;
+    }
+
+    #container {  
+      max-width: 960px;
+      margin: 20px auto;
+      padding: 2em;
+      border: 1px solid #ccc;
+      background-color: rgba(255,255,255,0.8);
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin: auto 2em;
+    }
+
+    header h1 {
+      margin: 1.2em auto;
+      font-family: 'Courgette', cursive;
+      text-transform: uppercase;
+      font-size: 3em;
+      letter-spacing: 0.6em;
+      font-weight: 700;
+    }
+
+    header h2 {
+      font-size: 6em;
+      font-style: sans-serif;
+    }
+
+    /* Main content */
+    main {
+      display: grid;
+      grid-template-columns: 30% 70%;
+      margin-top: 3em;
+    }
+
+    section {
+      margin: auto 1em 4em 2em;
+    }
+
+    /* Left side - Profile Image and Introduction */
+    #pf-img {
+      text-align: center;
+      margin-bottom: 2em;
+    }
+
+    #pf-img img {
+      border: 1px solid #ccc;
+      border-radius: 30%;
+      box-shadow: 5px 5px #eee;
+    }
+
+    #sns {
+      margin-top: 3em;
+      list-style: none;
+    }
+
+    #sns li {
+      margin-top: 1em;
+      margin-left: -3em;
+    }
+
+    i {
+      margin-left: 3em;
+    }
+
+    #left p {
+      line-height: 1.2;
+    }
+
+    /* Right side - Work Experience and Other Sections */
+    #right h2 {
+      text-transform: capitalize;
+      font-size: 1.5em;
+      margin: 2em auto 2em -1.5em;
+    }
+
+    #right p {
+      line-height: 2.2;
+    }
+
+    dt {
+      font-weight: bold;
+      margin: 1em auto;
+    }
+
+    dd {
+      margin-left: 1.5em;
+    }
+
+    #base, .text, .htmlcss, .js, .react, .github {
+      width: 80%;
+      margin: 1em auto;
+      padding: 0.8em;
+      color: white;
+      text-align: right;
+      border-radius: 5px;
+    }
+
+    #base {
+      background-color: #ddd;
+    }
+
+    .text {
+      background-color: #777;
+    }
+
+    .htmlcss, .js, .react, .github {
+      background-color: #777;
+    }
+
+    #left {
+      padding-right: 2em;
+      border-right: 1px solid lightgray;
+    }
+
+    #right {
+      padding-left: 2em;
+    } 
+  </style>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>BY</h1>
+      <h2>Bonyub's Resume</h2>
+    </header>
+    <main>
+      <article id="left">
+        <div id="pf-img">
+          <img src="./pf.png" alt="Profile Picture">
+        </div>
+        <section>
+          <p>Responsible for managing IT services, POS, planning, and provision.</p>
+          <p>Services include technical support, computer setup/deployment, asset management, POS, and management of mobile devices (iOS, Android).</p>
+          <p>Provide users with technical and operational expertise on policies and procedures based on ITIL.</p>
+          <p>Experience in various EUC environments. Operating AZURE, INTUNE, JAMF, SCCM, etc., to quickly respond to user tasks and organizational demands.</p>
+          <p>Passionate about user support, striving to contribute in various ways.</p>
+          <p>Create and distribute KBs to increase understanding of programs users operate. Additionally, by configuring networks and managing servers, accurately deliver information to administrators, reducing IDLE TIME.</p>
+          <p>Aiming to be a technology organization leader, learning and gaining experience in various technologies.</p>
+        </section>
+        <ul id="sns">
+          <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:gs3874@gmail.com" target="_blank">gs3874@gmail.com</a></li>
+          <li><i class="fab fa-github" aria-hidden="true"></i><a href="https://github.com/Bonyub" target="_blank">Bonyub Koo</a></li>
+          <li><i class="fab fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/bonyub-koo-641a1896/" target="_blank">Bonyub Koo</a></li>
+        </ul>
+      </article>
+      <article id="right">
+        <section>
+          <h2>Work Experience</h2>
+          <dl>
+            <dt><strong>Merlin Entertainments (FTE) : 2022.09 ~ Present</strong></dt>
+            <dd>IT Technician</dd>
+            <!-- Other job details -->
+          </dl>
+          <!-- Add other work experiences similarly -->
+        </section>
+        <!-- Add project, skills, certificates, and education sections similarly -->
+      </article>
+    </main>
+  </div>
+</body>
+</html>
