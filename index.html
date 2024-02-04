@@ -1,196 +1,121 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BY's resume</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-size: 14px;
-      font-family: 'Nanum Gothic', sans-serif;
-      background: white url('./bg.jpg') no-repeat fixed;
-      background-size: cover;
-    }
-
-    #container {  
-      max-width: 960px;
-      margin: 20px auto;
-      padding: 2em;
-      border: 1px solid #ccc;
-      background-color: rgba(255,255,255,0.8);
-    }
-
-    /* Header */
-    header {
-      text-align: center;
-      margin: auto 2em;
-    }
-
-    header h1 {
-      margin: 1.2em auto;
-      font-family: 'Nanum Gothic', sans-serif;
-      text-transform: uppercase;
-      font-size: 3em;
-      letter-spacing: 0.6em;
-      font-weight: 700;
-    }
-
-    header h2 {
-      font-size: 6em;
-      font-style: sans-serif;
-    }
-
-    /* Main content */
-    main {
-      display: grid;
-      grid-template-columns: 30% 70%;
-      margin-top: 3em;
-    }
-
-    section {
-      margin: auto 1em 4em 2em;
-    }
-
-    /* Left side - Profile Image and Introduction */
-    #pf-img {
-      text-align: center;
-      margin-bottom: 2em;
-    }
-
-    #pf-img img {
-      width: 100%;
-      max-width: 200px;
-      border: 1px solid #ccc;
-      border-radius: 50%;
-      box-shadow: 5px 5px #eee;
-    }
-
-    #sns {
-      margin-top: 3em;
-      list-style: none;
-    }
-
-    #sns li {
-      margin-top: 1em;
-    }
-
-    #sns li i {
-      margin-right: 0.5em;
-    }
-
-    #sns li a {
-      vertical-align: middle;
-    }
-
-    #left p {
-      line-height: 1.6;
-      text-align: justify;
-    }
-
-    /* Right side - Work Experience and Other Sections */
-    #right h2 {
-      text-transform: capitalize;
-      font-size: 1.5em;
-      margin: 2em auto 2em -1.5em;
-    }
-
-    #right p {
-      line-height: 2.2;
-    }
-
-    dt {
-      font-weight: bold;
-      margin: 1em auto;
-    }
-
-    dd {
-      margin-left: 1.5em;
-    }
-
-    #base, .text, .htmlcss, .js, .react, .github {
-      width: 80%;
-      margin: 1em auto;
-      padding: 0.8em;
-      color: white;
-      text-align: right;
-      border-radius: 5px;
-    }
-
-    #base {
-      background-color: #ddd;
-    }
-
-    .text {
-      background-color: #777;
-    }
-
-    .htmlcss, .js, .react, .github {
-      background-color: #777;
-    }
-
-    #left {
-      padding-right: 2em;
-      border-right: 1px solid lightgray;
-    }
-
-    #right {
-      padding-left: 2em;
-    } 
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>John Anderson's Resume</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="container">
-    <header>
-      <h1> </h1>
-      <h2>Bonyub's Resume</h2>
-    </header>
-    <main>
-      <article id="left">
-        <div id="pf-img">
-          <img src="./pf.png" alt="Profile Picture">
+  <div class="resume-wrapper">
+    <section class="profile section-padding">
+      <div class="container">
+        <div class="picture-resume-wrapper">
+          <div class="picture-resume">
+            <span><img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt=""></span>
+            <svg version="1.1" viewBox="0 0 350 350">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" result="cm" />
+                </filter>
+              </defs>
+              <g filter="url(#goo)">
+                <circle id="main_circle" class="st0" cx="171.5" cy="175.6" r="130"/>
+                <circle id="circle" class="bubble0 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble1 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble2 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble3 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble4 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble5 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble6 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble7 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble8 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble9 st1" cx="171.5" cy="175.6" r="122.7"/>
+                <circle id="circle" class="bubble10 st1" cx="171.5" cy="175.6" r="122.7"/>
+              </g>
+            </svg>
+          </div>
+          <div class="clearfix"></div>
         </div>
-        <section>
-          <p>Responsible for managing IT services, POS, planning, and provision.</p>
-          <p>Services include technical support, computer setup/deployment, asset management, POS, and management of mobile devices (iOS, Android).</p>
-          <p>Provide users with technical and operational expertise on policies and procedures based on ITIL.</p>
-          <p>Experience in various EUC environments. Operating AZURE, INTUNE, JAMF, SCCM, etc., to quickly respond to user tasks and organizational demands.</p>
-          <p>Passionate about user support, striving to contribute in various ways.</p>
-          <p>Creating and distributing KBs to increase understanding of user-operated programs. Also, focus on reducing IDLE TIME by accurately conveying network configurations and server management to central administrators.</p>
-          <p>Working towards the goal of being a technical organizational leader by learning and gaining experience with various technologies.</p>
-        </section>
-        <ul id="sns">
-          <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:gs3874@gmail.com">gs3874@gmail.com</a></li>
-          <li><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/Bonyub">Bonyub Koo</a></li>
-          <li><i class="fab fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/bonyub-koo-641a1896/">Bonyub Koo</a></li>
-        </ul>
-      </article>
-      <article id="right">
-        <section>
-          <h2>Work Experience</h2>
-          <dl>
-            <dt><strong>Merlin Entertainments (FTE) : 2022.09 ~ Present</strong></dt>
-            <dd>IT Technician</dd>
-            <!-- Work experience details -->
-          </dl>
-          <dl>
-            <dt>Nike B.V 360 Korea (ETW) : 2019.08 ~ 2022.09</dt>
-            <dd>Deskside Support Technician</dd>
-            <!-- Work experience details -->
-          </dl>
-          <!-- Add more work experiences as needed -->
-        </section>
-        <!-- Other sections (Projects, Skills, Certificates, Education) -->
-      </article>
-    </main>
+        <div class="name-wrapper">
+          <h1>John <br/>Anderson</h1>
+        </div>
+        <div class="clearfix"></div>
+        <div class="contact-info clearfix">
+          <ul class="list-titles">
+            <li>Call</li>
+            <li>Mail</li>
+            <li>Web</li>
+            <li>Home</li>
+          </ul>
+          <ul class="list-content">
+            <li>+34 123 456 789</li>
+            <li>j.anderson@gmail.com</li>
+            <li><a href="#">janderson.com</a></li>
+            <li>Los Angeles, CA</li>
+          </ul>
+        </div>
+        <div class="contact-presentation">
+          <p><span class="bold">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod congue nisi, nec consequat quam. In consectetur faucibus turpis eget laoreet. Sed nec imperdiet purus.</p>
+        </div>
+        <div class="contact-social clearfix">
+          <ul class="list-titles">
+            <li>Twitter</li>
+            <li>Dribbble</li>
+            <li>Codepen</li>
+          </ul>
+          <ul class="list-content">
+            <li><a href="">@janderson</a></li>
+            <li><a href="">janderson</a></li>
+            <li><a href="">janderson</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  
+    <section class="experience section-padding">
+      <div class="container">
+        <h3 class="experience-title">Experience</h3>
+        <div class="experience-wrapper">
+          <div class="company-wrapper clearfix">
+            <div class="experience-title">Company name</div>
+            <div class="time">Nov 2012 - Present</div>
+          </div>
+          <div class="job-wrapper clearfix">
+            <div class="experience-title">Front End Developer </div>
+            <div class="company-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
+            </div>
+          </div>
+          
+          <div class="company-wrapper clearfix">
+            <div class="experience-title">Company name</div>
+            <div class="time">Nov 2010 - Present</div>
+          </div>
+          <div class="job-wrapper clearfix">
+            <div class="experience-title">Freelance, Web Designer / Web Developer</div>
+            <div class="company-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
+            </div>
+          </div>
+          
+          <div class="company-wrapper clearfix">
+            <div class="experience-title">Company name</div>
+            <div class="time">Nov 2009 - Nov 2010</div>
+          </div>
+          <div class="job-wrapper clearfix">
+            <div class="experience-title">Web Designer </div>
+            <div class="company-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a elit facilisis, adipiscing leo in, dignissim magna.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    <div class="clearfix"></div>
   </div>
 </body>
 </html>
